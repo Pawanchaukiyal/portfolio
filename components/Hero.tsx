@@ -24,8 +24,9 @@ const Hero = () => {
 
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-          <h2 className='uppercase tracking-widest text-xs text-center  text-blue-100 max-w-80'>
-           Web page using Nexjs and Acternity
+          <h2 className='uppercase tracking-widest text-3xl text-center  text-blue-100 max-w-80 '>
+           {/* Web page using Nexjs and Acternity */}
+           Welcome To My Portfolio
           </h2>
 
           <TextGenerateEffect
@@ -37,7 +38,7 @@ const Hero = () => {
             Hi, I'm Pawan Chaukiyal, a Full Stack Web Devloper
           </p>
 
-          <a href="#about">
+          <a href="#projects">
           <MagicButton
            title="show my work"
            icon={<FaLocationArrow/>}

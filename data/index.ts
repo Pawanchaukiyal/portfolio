@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Working on Web Application",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    // title: "Do you want to start a project together?",
+    title:"Do you want to hire me?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,36 +73,73 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Apni Chat",
+    des: "Stay connected with anyone, anywhere with our free chat app. Send messages, share photos and videos, and make voice calls - all in one place. It's the easiest way to chat with friends, family, and anyone else in your life.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/materialui.svg", "/javascript.svg", "/vitejs.svg", "/Mongodb.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "DocAppoint",
+    des: "Hospitals on your schedule! Book appointments online with our system. Find the right doctor, view available times, and manage your healthcare all in one place. Saves time, reduces wait times, and keeps you in control. ",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/vitejs.svg", "/cloud.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "YT_Backened",
+    des: "It handles video processing (from upload to multiple streaming formats), runs the recommendation engine that surfaces your next obsession, and manages content moderation to keep things safe. It's the invisible brain behind the videos.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/expressjs.svg", "/Mongodb.svg", "/nodejs.svg", "/cloud.svg", "/Postman.svg"],
     link: "/ui.aiimg.com",
   },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
+];
+
+export const skills =[
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    id:1,
+    name:'JavaScript',
+    level:'Intermediate',
+    imgname:'/javascript.svg'
   },
+  {
+    id:2,
+    name:'CSS',
+    imagename:'/css.svg'
+  },
+  {
+    id:3,
+    name:'Express.js',
+    imgname:'/expressjs.svg'
+  },
+  {
+    id:4,
+    name:'Node.js',
+    imgname:'/nodejs.svg'
+  },
+  {
+    id:5,
+    name:'Java',
+    level:"Intermediate",
+    imgname:'/java.svg'
+  },
+  {
+    id:6,
+    name:'C',
+    level:'Intermediate',
+    imgname:'/c.svg'
+  },
+  
 ];
 
 export const testimonials = [
@@ -142,32 +180,46 @@ export const companies = [
     id: 1,
     name: "cloudinary",
     img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    // nameImg: "/cloudName.svg",
+    nameImg:"/cloudinaryname.svg"
   },
   {
     id: 2,
     name: "appwrite",
     img: "/app.svg",
-    nameImg: "/appName.svg",
+    // nameImg: "/appName.svg",
+    nameImg:"/appnme.svg"
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Vercel",
+    // img: "/host.svg",
+    img:"/vercel.svg",
+    // nameImg: "/hostName.svg",
+    nameImg:"/vercelname.svg"
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "MongoDB",
+    // img: "/s.svg",
+    img:"Mongodb.svg",
+    // nameImg: "/streamName.svg",
+    nameImg:"/mongoname.svg"
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Figma.",
+    // img: "/dock.svg",
+    img:"/Figma.svg",
+    nameImg: "/figmaname.svg",
   },
+  // {
+  //   id: 6,
+  //   name: "Postman",
+  //   // img: "/dock.svg",
+  //   img:"/poastman.svg",
+  //   nameImg: "/postmanname.svg",
+  // },
 ];
 
 export const workExperience = [
@@ -178,27 +230,27 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Dev - JSM Tech",
+  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a web app for a client",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
@@ -214,4 +266,8 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+  {
+    id:4,
+    img:"/insta.svg"
+  }
 ];
