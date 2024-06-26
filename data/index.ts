@@ -75,25 +75,25 @@ export const projects = [
     id: 1,
     title: "Apni Chat",
     des: "Stay connected with anyone, anywhere with our free chat app. Send messages, share photos and videos, and make voice calls - all in one place. It's the easiest way to chat with friends, family, and anyone else in your life.",
-    img: "/p1.svg",
+    img: "/chat.svg",
     iconLists: ["/re.svg", "/materialui.svg", "/javascript.svg", "/vitejs.svg", "/Mongodb.svg"],
-    link: "/ui.earth.com",
+    link: "https://apni-chat-client.vercel.app/login",
   },
   {
     id: 2,
     title: "DocAppoint",
     des: "Hospitals on your schedule! Book appointments online with our system. Find the right doctor, view available times, and manage your healthcare all in one place. Saves time, reduces wait times, and keeps you in control. ",
-    img: "/p2.svg",
+    img: "/doc.svg",
     iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/vitejs.svg", "/cloud.svg"],
-    link: "/ui.yoom.com",
+    link: "https://frontdoc.vercel.app/",
   },
   {
     id: 3,
     title: "YT_Backened",
     des: "It handles video processing (from upload to multiple streaming formats), runs the recommendation engine that surfaces your next obsession, and manages content moderation to keep things safe. It's the invisible brain behind the videos.",
-    img: "/p3.svg",
+    img: "/yt.svg",
     iconLists: ["/expressjs.svg", "/Mongodb.svg", "/nodejs.svg", "/cloud.svg", "/Postman.svg"],
-    link: "/ui.aiimg.com",
+    link: "/work in progress",
   },
   // {
   //   id: 4,
@@ -110,34 +110,40 @@ export const skills =[
     id:1,
     name:'JavaScript',
     level:'Intermediate',
-    imgname:'/javascript.svg'
+    img:'/javascript.svg',
+    link:'https://javascript.info/'
   },
   {
     id:2,
     name:'CSS',
-    imagename:'/css.svg'
+    img:'/css.svg',
+    link:'https://www.w3schools.com/css/'
   },
   {
     id:3,
     name:'Express.js',
-    imgname:'/expressjs.svg'
+    img:'/expressjs.svg',
+    link:'https://expressjs.com/'
   },
   {
     id:4,
     name:'Node.js',
-    imgname:'/nodejs.svg'
+    img:'/nodejs.svg',
+    link:'https://nodejs.org/docs/latest/api/'
   },
   {
     id:5,
     name:'Java',
     level:"Intermediate",
-    imgname:'/java.svg'
+    img:'/java.svg',
+    link:'https://www.javatpoint.com/java-tutorial'
   },
   {
     id:6,
     name:'C',
     level:'Intermediate',
-    imgname:'/c.svg'
+    img:'/c.svg',
+    link:'https://www.w3schools.com/c/'
   },
   
 ];

@@ -1,6 +1,6 @@
 import Approach from "@/components/Approach";
 // import Clients from "@/components/Clients";
-//  import Skills from "@/components/Skills";
+//  import SkillsSection from "@/components/SkillsSection";
 import CompanySection from "@/components/CompanySection";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -21,7 +21,7 @@ export default function Home() {
     <Grid/>
     <RecentProjects/>
     {/* <Clients/> */}
-    {/* <Skills/> */}
+    {/* <SkillsSection/> */}
     {<CompanySection/>}
     <Experience/>
     <Approach/>

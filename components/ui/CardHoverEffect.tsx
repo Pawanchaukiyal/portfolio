@@ -1,3 +1,4 @@
+
 import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
@@ -8,8 +9,10 @@ export const HoverEffect = ({
   className,
 }: {
   items: {
-    title: string;
-    description: string;
+    id: number;
+    name: string;
+    level: string;
+    img: string;
     link: string;
   }[];
   className?: string;
@@ -23,10 +26,10 @@ export const HoverEffect = ({
         className
       )}
     >
-      {items.map((item, idx) => (
+      {items.map((items, idx) => (
         <Link
-          href={item?.link}
-          key={item?.link}
+          href={items?.link}
+          key={items?.link}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -48,9 +51,9 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+          <Card key={items.id}>
+            <CardTitle>{items.name}</CardTitle>
+            <CardDescription>{items.level}</CardDescription>
           </Card>
         </Link>
       ))}
