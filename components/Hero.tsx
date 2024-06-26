@@ -35,7 +35,7 @@ const Hero = () => {
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Hi, I'm Pawan Chaukiyal, a Full Stack Web Devloper
+          Hey👋👋 I&apos;m Pawan Chaukiyal, a Full Stack Web Devloper
           </p>
 
           <a href="#projects">
